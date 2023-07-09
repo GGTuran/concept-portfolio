@@ -1,4 +1,25 @@
-/* *{ */
+*{
     margin: 0px;
     padding: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 10px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 7px;
+    font-size: 15px;
+    font-style:italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url(../concept-portfolio/asset/image/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
